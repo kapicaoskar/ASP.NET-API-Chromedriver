@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenQA.Selenium.Chrome.ChromeDriverExtensions" Version="1.2.0" />
+    <PackageReference Include="OpenQA.Selenium.Chrome.Fiddler" Version="1.0.0" />
+    <PackageReference Include="RafaelEstevam.WebDriverController" Version="0.4.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>
